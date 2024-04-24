@@ -24,11 +24,7 @@ function EmployeeNav() {
                     <div class="collapse navbar-collapse justify-content-around" id="navbarCollapse">
                         <div class="navbar-nav ml-auto " style={{marginLeft:'40rem'}}>
                             <Link to='/employee-home' class="nav-item nav-link ">Home</Link>
-                            <Link to='/employee-projects' class="nav-item nav-link ">Projects</Link>
-                            {/* <Link to='/about' href="about.html" class="nav-item nav-link">Projects</Link> */}
-                            <Link to="/emp-payroll" class="nav-item nav-link">Payrolls</Link>
-                            <Link to="/emp-complaints" class="nav-item nav-link">Add Complaints</Link>
-                            <Link to="/emp-complaint-status" class="nav-item nav-link">View Complaint Status</Link>
+                            
                             <Link to='/employee-profile' class="nav-item nav-link">Profile</Link>
                             {/* <a href="pricing.html" class="nav-item nav-link">Pricing</a> */}
                             {/* <div class="nav-item dropdown">

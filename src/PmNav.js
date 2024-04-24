@@ -23,8 +23,7 @@ function PmNav() {
                     <div class="collapse navbar-collapse justify-content-around" id="navbarCollapse">
                         <div class="navbar-nav ml-auto " style={{marginLeft:'50rem'}}>
                             <Link to='/pm_home' class="nav-item nav-link ">Home</Link>
-                            <Link to='/pm_add_project' class="nav-item nav-link ">Add Project</Link>
-                            <Link to='/pm_view_project' class="nav-item nav-link ">View Projects</Link>
+                            
                             {/* <Link to='/hr-view-employees' class="nav-item nav-link ">Project Manager</Link>
                             <Link to="/hr-add-job" class="nav-item nav-link">Add Jobs</Link>
                             <Link to="/hr-view-job" class="nav-item nav-link">View Jobs</Link>

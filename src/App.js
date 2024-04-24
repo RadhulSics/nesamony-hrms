@@ -76,61 +76,27 @@ function App() {
           <Route path="/hr-profile" element={<HrProfile />} />
           <Route path="/hr-leavepage" element={<HrLeavePage />} />
           <Route path="/hr-edit-profile" element={<HrEditProf />} />
-          <Route path="/hr-add-job" element={<HrAddJobs />} />
-          <Route path="/hr-view-job" element={<HrViewJobs />} />
-          <Route path="/hr-view-applicant" element={<ViewApplicantForJobs />} />
-          <Route
-            path="/hr-schedule-interview/:id"
-            element={<HrScheduleInterview />}
-          />
-          <Route path="/hr-view-employees" element={<HrViewEmployees />} />
-          <Route
-            path="/hr-generate-payroll/:id"
-            element={<HrGeneratePayroll />}
-          />
-          <Route path="/hr-search-profiles" element={<HrSearchBySkills />} />
-          <Route path="/hr-view-complaints" element={<HrViewComplaints />} />
-          <Route
-            path="/hr-scheduled-interviews"
-            element={<HrScheduledInterviews />}
-          />
-          <Route
-            path="/hr-update-status/:id"
-            element={<HrUpdateComplaintStatus />}
-          />
+          
 
           <Route path="/employee-login" element={<UserLogin />} />
           <Route path="/employee-signup" element={<EmpSignUp />} />
           <Route path="/employee-home" element={<EmployeePage />} />
-          <Route path="/employee-projects" element={<EmployeeProject />} />
           <Route path="/emp_forgot_pass" element={<EmployeeForgotPass />} />
-          <Route
-            path="/emp_updatepercentage/:id"
-            element={<EmployeeUpdatePercentage />}
-          />
+          
           <Route path="/employee-profile" element={<EmployeeProfile />} />
           <Route path="/employee-edit-profile" element={<EmpEditProf />} />
           <Route path="/employee-leavepage" element={<EmpLeave />} />
-          <Route path="/emp-payroll" element={<EmplyeePayRoll />} />
-          <Route path="/emp-complaints" element={<EmployeeComplaints />} />
-          <Route
-            path="/emp-complaint-status"
-            element={<EmpViewComplaintStatus />}
-          />
+         
 
           <Route path="/admin" element={<AdminLogin />} />
           <Route path="/admin-dashboard" element={<AdminHome />} />
-          <Route
-            path="/admin_view_singleEmploy/:id"
-            element={<AdminViewSingleEmploy />}
-          />
+          
           <Route
             path="/admin-add-designation"
             element={<AdminAddDesignation />}
           />
           <Route path="/admin-view-designation" element={<AdminViewDesig />} />
-          <Route path="/admin_view_applicant" element={<AdminViewAppcnt />} />
-          <Route path="/admin-view-projects" element={<AdminViewProjects />} />
+          
           <Route
             path="/admin-edit-designation/:id"
             element={<AdminEditDesig />}
@@ -144,28 +110,16 @@ function App() {
             path="/applicant_edit_profile"
             element={<ApplicantEditProf />}
           />
-          <Route
-            path="/applicant_interview_view"
-            element={<ApplicantViewInterview />}
-          />
+          
           <Route path="/app_forgot_pass" element={<ApplicantForgotPwd />} />
-          <Route
-            path="/applicant_search_view"
-            element={<ApplicantSearchResult />}
-          />
+          
 
           <Route path="/project-manager-login" element={<ProjManLogin />} />
           <Route path="/pm_home" element={<PmHome />} />
           <Route path="/pm-profile" element={<PmProfile />} />
           <Route path="/pm_edit_profile" element={<PmEditProfile />} />
           <Route path="/pm_leave_page" element={<PmLeave />} />
-          <Route path="/pm_add_project" element={<PmAddProjects />} />
-          <Route path="/pm_view_project" element={<PmViewProjects />} />
-          <Route
-            path="/pm_view_singleprct/:id"
-            element={<PmViewSinglePrjct />}
-          />
-          <Route path="/pm_edit_project/:id" element={<PmEditProject />} />
+          
         </Routes>
         <Footer />
       </div>

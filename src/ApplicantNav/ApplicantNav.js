@@ -57,8 +57,7 @@ function ApplicantNav() {
                                 <input type="text" placeholder='search by category' name="category" value={cat} onChange={(e)=>{setCategory(e.target.value)}}/><Link to={{pathname:'/applicant_search_view',state:{data: data}}} ><button type="submit" class='btn btn-primary'  >search</button></Link>
                             </form  > */}
                             <Link to='/applicant-home' class="nav-item nav-link ">Home</Link>
-                            <Link to='/applicant_search_view' class="nav-item nav-link ">Search</Link>
-                            <Link to='/applicant_interview_view' class="nav-item nav-link ">My Interviews</Link>
+                           
                             <Link to="/applicant-profile" class="nav-item nav-link">Profile</Link>
                             
                             {/* <Link to='/employee-profile' class="nav-item nav-link">Profile</Link> */}

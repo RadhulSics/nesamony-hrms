@@ -43,11 +43,7 @@ function AdminNav() {
               <span class="d-none d-lg-inline-flex">Add Designation</span>
             </Link>
           </div>
-          <div class="nav-item dropdown">
-            <Link to="/admin-view-projects" class="nav-link ">
-              <span class="d-none d-lg-inline-flex">View Projects</span>
-            </Link>
-          </div>
+          
           <div class="nav-item dropdown">
             <Link class="nav-link ">
               <span onClick={()=>{localStorage.clear();window.location.reload(false)}} class="d-none d-lg-inline-flex">Logout</span>

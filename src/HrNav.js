@@ -23,13 +23,7 @@ function HrNav() {
                     <div class="collapse navbar-collapse justify-content-around "  id="navbarCollapse">
                         <div class="navbar-nav ml-auto " style={{marginLeft:'30rem'}}>
                             <Link to='/hr-home' class="nav-item nav-link ">Home</Link>
-                            <Link to='/hr-view-employees' class="nav-item nav-link ">View Employees</Link>
-                            <Link to='/hr-search-profiles' class="nav-item nav-link ">Search Profiles</Link>
-                            {/* <Link to='/about' href="about.html" class="nav-item nav-link">Projects</Link> */}
-                            <Link to="/hr-add-job" class="nav-item nav-link">Add Jobs</Link>
-                            <Link to="/hr-view-job" class="nav-item nav-link">View Jobs</Link>
-                            <Link to="/hr-view-applicant" class="nav-item nav-link">View Job Request</Link>
-                            <Link to="/hr-view-complaints" class="nav-item nav-link">View Complaints</Link>
+                            
                             <Link to='/hr-profile' class="nav-item nav-link">Profile</Link>
                             {/* <a href="pricing.html" class="nav-item nav-link">Pricing</a> */}
                             {/* <div class="nav-item dropdown">
